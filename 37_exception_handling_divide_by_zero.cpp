@@ -1,0 +1,33 @@
+// Program 37: Exception handling for division by zero
+// Name: Shreya B Gundali
+// Roll No: 573
+// Division: E
+// SRN: 01fe23bec380
+// Semester: 7
+// Department: Electronics and Communication Engineering
+// College: KLE Technological University, Hubli
+
+// write a cpp program for exception handling the divide by zero error...
+#include<iostream>
+using namespace std;
+
+double division(int a,int b){
+if(b==0){
+    throw "Division by zero condition!!!";
+    }
+    return(a/b);
+}
+
+int main()
+{
+ int x=50,y=0;
+ double z=0;
+ try{
+ z=division(x,y);
+ cout<<z<<endl;
+ }
+ catch(const char*msg){
+ cout<<msg<<endl;
+ }
+ return 0;
+}
