@@ -2,11 +2,15 @@
 
 ## Student Details
 
-- **Name:** Shreya B Gundali
-- **Roll No:** 573
-- **Division:** E
-- **SRN:** 01fe23bec380
-- **Semester:** 7
+| Field | Details |
+|---|---|
+| **Name** | Shreya B Gundali |
+| **Roll No** | 573 |
+| **Division** | E |
+| **SRN** | 01fe23bec380 |
+| **Semester** | 7 |
+| **Department** | Electronics and Communication Engineering |
+| **University** | KLE Technological University, Hubli |
 
 ## About
 
@@ -44,22 +48,100 @@ Each source file contains a documentation header, a concise explanation of the c
 | 24 | Common Friend Function for Two Classes (Variant) | Friend function and forward declaration |
 | 25 | Animal and Dog Single Inheritance | Single inheritance |
 | 26 | Person, Student, and ITstudent Inheritance | Multilevel inheritance |
+| 27 | Complex Number Subtraction Using Operator Overloading | Binary operator overloading |
+| 28 | Complex Number Addition Using Operator Overloading | Binary operator overloading |
+| 29 | Runtime Polymorphism Using Virtual Functions | Virtual functions and function overriding |
+| 30 | Runtime Polymorphism Using Shape Classes | Base-class pointers and runtime polymorphism |
+| 31 | Abstract Class Vehicle with Car and Bike | Abstract classes and pure virtual functions |
+| 32 | Complex Number Subtraction Using Operator Overloading | Binary `-` operator overloading |
+| 33 | Unary Operator Overloading – Increment | Prefix and postfix increment (`++`) |
+| 34 | Unary Operator Overloading – Decrement | Prefix and postfix decrement (`--`) |
+| 35 | Exception Handling – Division by Zero | `try`, `throw`, and `catch` |
+| 36 | Basic Exception Handling Example | Exception handling and integer exceptions |
+| 37 | Division by Zero Using Exception Handling | User-defined exception messages |
+| 38 | Exception Handling with Multiple Data Types | Multiple catch blocks and different exception data types |
+| 39 | Exception Handling with Integer Exceptions | Integer exceptions and catch blocks |
+| 40 | String Concatenation Using Operator Overloading | Binary `+` operator overloading and string concatenation |
 
 ## OOPS Concepts Covered
 
+### 1. Classes and Objects
 - Classes and objects
+- Data members and member functions
 - Encapsulation
-- Member functions
-- `this` pointer
 - Objects as function arguments
+- `this` pointer
+
+### 2. Constructors
 - Default constructors
 - Parameterized constructors
 - Copy constructors
+- Constructor initialization
+
+### 3. Static and Friend Functions
 - Static data members
 - Static member functions
 - Friend functions
-- Forward declarations used with friend functions
+- Private data access using friend functions
+- Forward declarations
+
+### 4. Inheritance
 - Single inheritance
 - Multilevel inheritance
+- Base and derived classes
 
+### 5. Polymorphism
+- Compile-time polymorphism
+- Runtime polymorphism
+- Function overriding
+- Virtual functions
+- Abstract classes
+- Pure virtual functions
 
+### 6. Operator Overloading
+- Binary operator overloading
+- Unary operator overloading
+- Addition (`+`) operator overloading
+- Subtraction (`-`) operator overloading
+- String concatenation
+- Prefix increment (`++`)
+- Postfix increment (`++`)
+- Prefix decrement (`--`)
+- Postfix decrement (`--`)
+
+### 7. Exception Handling
+- `try` block
+- `throw` statement
+- `catch` block
+- Multiple catch blocks
+- Handling different exception data types
+- User-defined exception messages
+- Division-by-zero exception handling
+
+### 8. String Handling
+- String input and processing
+- `std::string`
+- String length
+- Palindrome checking
+- String concatenation
+
+## Learning Outcomes
+
+- Understanding fundamental object-oriented programming concepts.
+- Implementing classes, objects, and constructors in C++.
+- Applying encapsulation, inheritance, and polymorphism.
+- Understanding friend functions and static members.
+- Implementing operator overloading.
+- Working with virtual functions and abstract classes.
+- Handling exceptions using C++ exception-handling mechanisms.
+- Performing basic string operations and manipulation.
+
+## Repository Maintenance
+
+This repository is maintained as part of the OOPS laboratory coursework and will be updated with additional programs and practical exercises.
+
+---
+
+**Maintained by:** Shreya B Gundali  
+**Department:** Electronics and Communication Engineering  
+**KLE Technological University, Hubli**
