@@ -136,11 +136,7 @@ Each source file contains a documentation header, a concise explanation of the c
 - Handling exceptions using C++ exception-handling mechanisms.
 - Performing basic string operations and manipulation.
 
-## Repository Maintenance
 
-This repository is maintained as part of the OOPS laboratory coursework and will be updated with additional programs and practical exercises.
-
----
 
 **Maintained by:** Shreya B Gundali  
 **Department:** Electronics and Communication Engineering  
